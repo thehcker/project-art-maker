@@ -34,9 +34,9 @@ function makeGrid(x, y) {
 
 }
 //Formatting h2
-	$("h2").css("color","purple");
+$("h2").css("color","purple");
 //Modifying the body upon keypressing
- $("#wrapper").on("click",function(){
-    $("body").css("background-color","#ccffdd");
-  });
+$("#wrapper").on("click",function(){
+	$("body").css("background-color","#ccffdd");
+});
   
