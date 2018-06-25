@@ -9,7 +9,7 @@ $('#sizePicker').submit(function (event) {
     height = $('#inputHeight').val();
     width = $('#inputWeight').val();
     makeGrid(height, width);
-})
+});
 
 function makeGrid(x, y) {
 
@@ -30,7 +30,7 @@ function makeGrid(x, y) {
         } else {
             $(this).attr('style', 'background-color:' + color);
         }
-    })
+    });
 
 }
 //Formatting h2
